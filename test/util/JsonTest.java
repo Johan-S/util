@@ -15,10 +15,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 import static util.Strings.iter;
 import static util.Json.*;
-/**
- *
- * @author Johan Strååt
- */
+
 public class JsonTest {
   @Test
   public void testParseChar() {

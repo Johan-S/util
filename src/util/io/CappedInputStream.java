@@ -3,10 +3,7 @@ package util.io;
 import java.io.IOException;
 import java.io.InputStream;
 
-/**
- *
- * @author Johan Strååt
- */
+
 public class CappedInputStream extends InputStream {
   private int cap;
   private InputStream stream;

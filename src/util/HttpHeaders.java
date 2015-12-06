@@ -7,10 +7,7 @@ import java.util.List;
 import java.util.Map;
 import util.io.Streams;
 
-/**
- *
- * @author Johan Strååt
- */
+
 public class HttpHeaders {
   public static Map<String, String> parseHeaders(InputStream in) throws IOException {
     Map<String, String> res = new HashMap<>();

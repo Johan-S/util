@@ -8,10 +8,7 @@ package util;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
-/**
- *
- * @author Johan Strååt
- */
+
 public class StringsTest {
   /**
    * Test of toHex method, of class Strings.

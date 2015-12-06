@@ -7,10 +7,7 @@ package util;
 
 import util.Strings.RewindableIterator;
 
-/**
- *
- * @author Johan Strååt
- */
+
 public class SyntaxError extends Error {
   public SyntaxError(String type, RewindableIterator obj) {
     super(String.format("Couldn't parse %s: \r\n######\r\n%s\r\n######\r\n", type, obj.toString()));

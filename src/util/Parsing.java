@@ -7,10 +7,7 @@ package util;
 
 import util.Strings.RewindableIterator;
 
-/**
- *
- * @author Johan Strååt
- */
+
 public class Parsing {
   public static long parseLongHex(String hex) {
     return parseLongHex(hex, 0, hex.length());

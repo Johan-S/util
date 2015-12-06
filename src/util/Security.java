@@ -11,10 +11,7 @@ import java.security.SecureRandom;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-/**
- *
- * @author Johan Strååt
- */
+
 public abstract class Security {
   public static SecureRandom getRandom() {
     try {

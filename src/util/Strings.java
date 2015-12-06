@@ -15,10 +15,7 @@ import java.util.function.Function;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-/**
- *
- * @author Johan Strååt
- */
+
 public abstract class Strings {
 
   static final byte[] hex = "0123456789abcdef".getBytes();

@@ -32,10 +32,7 @@ import java.util.Map;
 import util.io.SeparatedInputStream;
 import util.io.Streams;
 
-/**
- *
- * @author Johan Strååt
- */
+
 public class MultipartFormData {
   
   public List<FormData> data = new ArrayList<>();

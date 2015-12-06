@@ -8,10 +8,7 @@ package util;
 import java.util.Arrays;
 import java.util.function.*;
 
-/**
- *
- * @author Johan Strååt
- */
+
 public class Functional {
   public static <T,R> R[] map(T[] in, Function<T,R> f) throws Exception {
     R[] res = (R[])(new Object[in.length]);

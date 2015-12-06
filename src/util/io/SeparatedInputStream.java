@@ -4,10 +4,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import util.KMP;
 
-/**
- *
- * @author Johan Strååt
- */
+
 public class SeparatedInputStream extends InputStream {
 
   private final InputStream stream;

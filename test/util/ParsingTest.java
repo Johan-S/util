@@ -8,10 +8,7 @@ package util;
 import static org.junit.Assert.*;
 import org.junit.Test;
 
-/**
- *
- * @author Johan Strååt
- */
+
 public class ParsingTest {
   private static final 
     String[] hexes = {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "D", "E", "F",

@@ -3,10 +3,7 @@ package util.io;
 import java.io.IOException;
 import java.io.InputStream;
 
-/**
- *
- * @author Johan Strååt
- */
+
 public class Streams {
   
   public static String readWindowsLine(InputStream in) throws IOException {
